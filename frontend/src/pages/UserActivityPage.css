@@ -1,0 +1,15 @@
+.user-activity {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.user-activity__back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.user-activity h1 {
+  margin: 0 0 1.5rem;
+}

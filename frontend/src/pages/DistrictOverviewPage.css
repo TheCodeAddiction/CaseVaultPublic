@@ -1,0 +1,46 @@
+.district-overview {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.district-overview h1 {
+  margin: 0 0 1.5rem;
+}
+
+.district-overview h2 {
+  font-size: 1.1rem;
+  margin: 1.5rem 0 0.75rem;
+}
+
+.district-overview__stats {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.district-overview__stat {
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 120px;
+}
+
+.district-overview__stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--slate-700);
+}
+
+.district-overview__stat-value {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+}
+
+.district-overview__empty {
+  padding: 1.5rem;
+  color: var(--slate-700);
+  margin: 0;
+}

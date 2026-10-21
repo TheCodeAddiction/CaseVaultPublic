@@ -1,0 +1,51 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid transparent;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: var(--badge-gold);
+  color: var(--ink-900);
+}
+
+.btn-ghost {
+  background: transparent;
+  border-color: rgba(246, 245, 242, 0.35);
+  color: var(--paper-50);
+}
+
+.btn-ghost:hover {
+  border-color: var(--paper-50);
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-ghost-dark {
+  background: transparent;
+  border-color: rgba(61, 74, 92, 0.35);
+  color: var(--ink-900);
+}
+
+.btn-ghost-dark:hover {
+  border-color: var(--ink-900);
+}
+
+.card {
+  background: var(--surface-0);
+  border: var(--border-hairline);
+  border-radius: var(--radius);
+}

@@ -1,0 +1,15 @@
+.profile-picture {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-picture--placeholder {
+  background: var(--slate-700);
+  color: var(--paper-50);
+  font-family: var(--font-display);
+  font-weight: 600;
+}

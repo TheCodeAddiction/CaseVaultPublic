@@ -1,0 +1,71 @@
+.auth-form {
+  width: 100%;
+  max-width: 360px;
+  padding: 2rem;
+}
+
+.auth-form h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.auth-form label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--slate-700);
+  margin: 1rem 0 0.35rem;
+}
+
+.auth-form input,
+.auth-form select,
+.auth-form textarea {
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid rgba(61, 74, 92, 0.35);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: var(--font-body);
+  background: var(--surface-0);
+  color: var(--ink-900);
+}
+
+.auth-form textarea {
+  resize: vertical;
+}
+
+.auth-form select#district,
+.auth-form input#username,
+.auth-form input#password {
+  font-family: var(--font-mono);
+}
+
+.auth-form .btn {
+  margin-top: 1.5rem;
+}
+
+.auth-form__error {
+  background: rgba(161, 61, 61, 0.08);
+  border: 1px solid rgba(161, 61, 61, 0.3);
+  color: var(--alert-700);
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.auth-form__field-error {
+  color: var(--alert-700);
+  font-size: 0.8rem;
+  margin: 0.3rem 0 0;
+}
+
+.auth-form__footer {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--slate-700);
+}
+
+.auth-form__footer a {
+  color: var(--badge-gold);
+}

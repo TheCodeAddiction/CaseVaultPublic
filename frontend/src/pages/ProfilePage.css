@@ -1,0 +1,41 @@
+.profile {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.profile__details {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 0.5rem 1rem;
+  margin: 1.5rem 0 0;
+}
+
+.profile__details dt {
+  color: var(--slate-700);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.profile__details dd {
+  margin: 0;
+}
+
+.profile__form {
+  max-width: none;
+  margin-top: 1.5rem;
+}
+
+.profile__form h2 {
+  font-size: 1.1rem;
+}
+
+.profile__danger {
+  border: 1px solid var(--alert-700);
+}
+
+.profile__danger p {
+  font-size: 0.85rem;
+  color: var(--slate-700);
+}

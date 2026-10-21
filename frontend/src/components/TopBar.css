@@ -1,0 +1,63 @@
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 0.5rem;
+  gap: 1rem;
+  padding: 0.9rem 1.5rem;
+  background: var(--ink-900);
+  color: var(--paper-50);
+}
+
+.top-bar__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.top-bar__wordmark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+}
+
+.top-bar__identity {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 0;
+  gap: 1rem;
+}
+
+.top-bar__user {
+  font-size: 0.85rem;
+  font-family: var(--font-mono);
+  color: rgba(246, 245, 242, 0.85);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: min(40vw, 320px);
+}
+
+.top-bar__inbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--paper-50);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.top-bar__badge {
+  background: var(--badge-gold);
+  color: var(--ink-900);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.05rem 0.45rem;
+  line-height: 1.3;
+}

@@ -1,0 +1,40 @@
+.recipient-picker {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipient-picker__results {
+  list-style: none;
+  margin: 0.25rem 0 0;
+  padding: 0;
+  border: 1px solid rgba(61, 74, 92, 0.35);
+  border-radius: var(--radius);
+  background: var(--surface-0);
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.recipient-picker__result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  font: inherit;
+}
+
+.recipient-picker__result:hover {
+  background: rgba(61, 74, 92, 0.08);
+}
+
+.recipient-picker__meta {
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+  color: var(--slate-700);
+}

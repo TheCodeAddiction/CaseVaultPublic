@@ -1,0 +1,29 @@
+.pill {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.pill--gold {
+  background: rgba(169, 130, 47, 0.15);
+  color: var(--badge-gold);
+}
+
+.pill--slate {
+  background: rgba(61, 74, 92, 0.12);
+  color: var(--slate-700);
+}
+
+.pill--muted {
+  background: rgba(61, 74, 92, 0.08);
+  color: var(--slate-700);
+}
+
+.pill--alert {
+  background: rgba(161, 61, 61, 0.12);
+  color: var(--alert-700);
+}

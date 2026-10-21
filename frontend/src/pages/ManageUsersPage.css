@@ -1,0 +1,33 @@
+.manage-users {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.manage-users h1 {
+  margin: 0 0 1.5rem;
+}
+
+.manage-users__table-card {
+  overflow-x: auto;
+}
+
+.manage-users__empty {
+  padding: 1.5rem;
+  color: var(--slate-700);
+  margin: 0;
+}
+
+.manage-users__form {
+  max-width: none;
+  margin-top: 1.5rem;
+}
+
+.manage-users__form h2 {
+  font-size: 1.1rem;
+}
+
+.manage-users__actions {
+  display: flex;
+  gap: 0.5rem;
+}

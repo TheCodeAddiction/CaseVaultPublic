@@ -1,0 +1,80 @@
+.chat-room__header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.chat-room__title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.chat-room__error {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: var(--alert-700);
+}
+
+.chat-room__thread {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  height: 60vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.chat-room__empty {
+  color: var(--slate-700);
+}
+
+.chat-room__bubble {
+  align-self: flex-start;
+  max-width: 70%;
+  min-width: 0;
+  background: var(--paper-50);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.75rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.chat-room__bubble--mine {
+  align-self: flex-end;
+  background: var(--badge-gold);
+}
+
+.chat-room__bubble-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--slate-700);
+  margin-bottom: 0.25rem;
+}
+
+.chat-room__bubble p {
+  margin: 0;
+}
+
+.chat-room__bubble-case {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.chat-room__compose {
+  margin-top: 1.5rem;
+}
+
+textarea.chat-room__textarea {
+  height: 3.5rem;
+  resize: none;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+}
