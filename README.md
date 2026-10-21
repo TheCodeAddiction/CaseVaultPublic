@@ -9,6 +9,13 @@ reading real, "decent size" application code — not a toy snippet.
 This is training material. Do not use any part of this codebase (auth,
 password handling, etc.) as a reference for production code.
 
+## Documentation
+
+- [`docs/api-contract.md`](docs/api-contract.md) — every backend endpoint:
+  request/response shapes, validation, access rules and error codes.
+- [`docs/roles-and-permissions.md`](docs/roles-and-permissions.md)
+  ([Norsk](docs/roles-and-permissions.no.md)) — who is allowed to do what.
+
 ## How to install and run
 
 Requires Java 17+, Maven (via the included wrapper), and Node.js 18+.
